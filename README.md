@@ -8,3 +8,5 @@
 - XDebug Helper 浏览器安装debug插件
 
 下次直播内容：完善一个自己开发的PHP框架。
+如何下载一些视频播放网站的视频。比如优酷？腾讯视频？爱奇艺？youtube。（you-get）
+如何获得豆瓣评分最高的电影：https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=rank&page_limit=20&page_start=0
