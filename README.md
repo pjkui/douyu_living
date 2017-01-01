@@ -6,3 +6,5 @@
 - php：5.6.2 修改php.ini 支持XDEBUG
 - phpstorm 配置phpstorm 远程调试信息
 - XDebug Helper 浏览器安装debug插件
+
+下次直播内容：完善一个自己开发的PHP框架。
