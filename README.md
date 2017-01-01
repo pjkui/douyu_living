@@ -1,4 +1,5 @@
 # douyu_living
+房间地址 https://www.douyu.com/mysoft
 ##斗鱼第一次直播
 *2017年1月2日0:47:53* 
 - 直播内容：如何配置php debug 开发环境
